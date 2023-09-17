@@ -25,7 +25,7 @@ function App() {
           <h3>Login</h3>
           <form method="post" action="#">
             <div className="row">
-              <label for="username">
+              <label htmlFor="username">
                 Username:
                 <input
                   type="text"
@@ -39,7 +39,7 @@ function App() {
             </div>
 
             <div className="row">
-              <label for="password">
+              <label htmlFor="password">
                 Password:
                 <input
                   type="password"
@@ -86,7 +86,7 @@ function App() {
           <h3>sign up</h3>
           <form method="post" action="#">
             <div className="row">
-              <label for="username-2">
+              <label htmlFor="username-2">
                 Username:
                 <input
                   type="text"
@@ -100,7 +100,7 @@ function App() {
             </div>
 
             <div className="row">
-              <label for="email-2">
+              <label htmlFor="email-2">
                 your email:
                 <input
                   type="password"
@@ -113,7 +113,7 @@ function App() {
               </label>
             </div>
             <div className="row">
-              <label for="password-2">
+              <label htmlFor="password-2">
                 Password:
                 <input
                   type="password"
@@ -126,7 +126,7 @@ function App() {
               </label>
             </div>
             <div className="row">
-              <label for="repassword-2">
+              <label htmlFor="repassword-2">
                 re-type Password:
                 <input
                   type="password"

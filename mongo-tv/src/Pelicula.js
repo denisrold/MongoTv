@@ -1,7 +1,7 @@
 export default function Pelicula(props) {
   return (
     <div className="movie-item-style-2">
-      <img src="images/uploads/mv1.jpg" alt="" />
+      <img src={props.img} alt="" />
       <div className="mv-item-infor">
         <h6>
           <a href="moviesingle.html">{props.titulo}</a>

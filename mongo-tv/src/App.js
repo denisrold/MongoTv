@@ -8,6 +8,21 @@ import { useState } from "react";
 function App() {
   const [paginaActual, setPaginaActual] = useState(1);
   let peliculas = peliculasJson;
+  const TOTAL_POR_PAGINA = 7;
+  const cargarPeliculas = () => {
+    peliculas = peliculas.slice(
+      (paginaActual - 1) * TOTAL_POR_PAGINA,
+      paginaActual * TOTAL_POR_PAGINA
+    );
+  };
+
+  const getTotalPaginas = () => {
+    let cantidadTotalPeliculas = peliculasJson.length;
+    let total = Math.ceil(cantidadTotalPeliculas / TOTAL_POR_PAGINA);
+    return total;
+  };
+
+  cargarPeliculas();
   return (
     <PageWrapper>
       {peliculas.map((pelicula) => {
@@ -27,7 +42,7 @@ function App() {
       })}
       <Paginacion
         pagina={paginaActual}
-        total={4}
+        total={getTotalPaginas()}
         onChange={(pagina) => {
           setPaginaActual(pagina);
         }}

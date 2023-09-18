@@ -398,7 +398,7 @@ export default function PageWrapper(props) {
 
               {props.children}
 
-              <div className="movie-item-style-2">
+              {/* <div className="movie-item-style-2">
                 <img src="images/uploads/mv2.jpg" alt="" />
                 <div className="mv-item-infor">
                   <h6>
@@ -525,7 +525,7 @@ export default function PageWrapper(props) {
                     <a href="#">Tom Hiddleston</a>
                   </p>
                 </div>
-              </div>
+              </div> */}
               <div className="topbar-filter">
                 <label>Movies per page:</label>
                 <select>

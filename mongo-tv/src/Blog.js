@@ -4,10 +4,10 @@ import PageWrapper from "./PageWrapper";
 function Blog() {
   return (
     <PageWrapper>
-      <div class="col-md-9 col-sm-12 col-xs-12">
-        <div class="blog-detail-ct">
+      <div className="col-md-9 col-sm-12 col-xs-12">
+        <div className="blog-detail-ct">
           <h1>New Character Posters For Pirates Of The Caribbean</h1>
-          <span class="time">27 Mar 2017</span>
+          <span className="time">27 Mar 2017</span>
           <img src="images/uploads/blog-detail.jpg" alt="" />
           <p>
             Joss Whedon has a little bit of a history with superhero movies, and
@@ -39,7 +39,7 @@ function Blog() {
             washed-up actor and Sam Claflin as Catrin’s fellow writer and
             sparring partner.
           </p>
-          <div class="flex-it flex-ct">
+          <div className="flex-it flex-ct">
             <p>
               Arterton is next set to play Vita Sackville-West in Vita and
               Virginia about her relationship with Virginia Woolf. She spoke to
@@ -70,26 +70,26 @@ function Blog() {
             Festival.
           </p>
 
-          <div class="flex-it share-tag">
-            <div class="social-link">
+          <div className="flex-it share-tag">
+            <div className="social-link">
               <h4>Share it</h4>
               <a href="#">
-                <i class="ion-social-facebook"></i>
+                <i className="ion-social-facebook"></i>
               </a>
               <a href="#">
-                <i class="ion-social-twitter"></i>
+                <i className="ion-social-twitter"></i>
               </a>
               <a href="#">
-                <i class="ion-social-googleplus"></i>
+                <i className="ion-social-googleplus"></i>
               </a>
               <a href="#">
-                <i class="ion-social-pinterest"></i>
+                <i className="ion-social-pinterest"></i>
               </a>
               <a href="#">
-                <i class="ion-social-linkedin"></i>
+                <i className="ion-social-linkedin"></i>
               </a>
             </div>
-            <div class="right-it">
+            <div className="right-it">
               <h4>Tags</h4>
               <a href="#">Gray,</a>
               <a href="#">Film,</a>
@@ -97,16 +97,16 @@ function Blog() {
             </div>
           </div>
 
-          <div class="comments">
+          <div className="comments">
             <h4>04 Comments</h4>
-            <div class="cmt-item flex-it">
+            <div className="cmt-item flex-it">
               <img src="images/uploads/author.png" alt="" />
-              <div class="author-infor">
-                <div class="flex-it2">
+              <div className="author-infor">
+                <div className="flex-it2">
                   <h6>
                     <a href="#">Steve Perry</a>
                   </h6>{" "}
-                  <span class="time"> - 27 Mar 2017</span>
+                  <span className="time"> - 27 Mar 2017</span>
                 </div>
                 <p>
                   Even though Journey's classic vocalist Steve Perry didn’t
@@ -115,20 +115,20 @@ function Blog() {
                   speech.
                 </p>
                 <p>
-                  <a class="rep-btn" href="#">
+                  <a className="rep-btn" href="#">
                     + Reply
                   </a>
                 </p>
               </div>
             </div>
-            <div class="cmt-item flex-it reply">
+            <div className="cmt-item flex-it reply">
               <img src="images/uploads/author2.png" alt="" />
-              <div class="author-infor">
-                <div class="flex-it2">
+              <div className="author-infor">
+                <div className="flex-it2">
                   <h6>
                     <a href="#">Joss Whedon</a>
                   </h6>{" "}
-                  <span class="time"> - 27 Mar 2017</span>
+                  <span className="time"> - 27 Mar 2017</span>
                 </div>
                 <p>
                   Prince died not long after the 2016 Rock Hall ceremony, so
@@ -137,14 +137,14 @@ function Blog() {
                 </p>
               </div>
             </div>
-            <div class="cmt-item flex-it reply">
+            <div className="cmt-item flex-it reply">
               <img src="images/uploads/author3.png" alt="" />
-              <div class="author-infor">
-                <div class="flex-it2">
+              <div className="author-infor">
+                <div className="flex-it2">
                   <h6>
                     <a href="#">Dave McNary</a>
                   </h6>{" "}
-                  <span class="time"> - 27 Mar 2017</span>
+                  <span className="time"> - 27 Mar 2017</span>
                 </div>
                 <p>
                   Blue Sky Studios is one of the world’s leading digital
@@ -153,14 +153,14 @@ function Blog() {
                 </p>
               </div>
             </div>
-            <div class="cmt-item flex-it">
+            <div className="cmt-item flex-it">
               <img src="images/uploads/author4.png" alt="" />
-              <div class="author-infor">
-                <div class="flex-it2">
+              <div className="author-infor">
+                <div className="flex-it2">
                   <h6>
                     <a href="#">Margot Robbie</a>
                   </h6>{" "}
-                  <span class="time"> - 27 Mar 2017</span>
+                  <span className="time"> - 27 Mar 2017</span>
                 </div>
                 <p>
                   Joan Baez was the sharpest of the Rock Hall inductees, singing
@@ -169,29 +169,29 @@ function Blog() {
                   Barclays.{" "}
                 </p>
                 <p>
-                  <a class="rep-btn" href="#">
+                  <a className="rep-btn" href="#">
                     + Reply
                   </a>
                 </p>
               </div>
             </div>
           </div>
-          <div class="comment-form">
+          <div className="comment-form">
             <h4>Leave a comment</h4>
             <form action="#">
-              <div class="row">
-                <div class="col-md-4">
+              <div className="row">
+                <div className="col-md-4">
                   <input type="text" placeholder="Your name" />
                 </div>
-                <div class="col-md-4">
+                <div className="col-md-4">
                   <input type="text" placeholder="Your email" />
                 </div>
-                <div class="col-md-4">
+                <div className="col-md-4">
                   <input type="text" placeholder="Website" />
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-12">
+              <div className="row">
+                <div className="col-md-12">
                   <textarea
                     name="message"
                     id=""
@@ -199,7 +199,7 @@ function Blog() {
                   ></textarea>
                 </div>
               </div>
-              <input class="submit" type="submit" placeholder="submit" />
+              <input className="submit" type="submit" placeholder="submit" />
             </form>
           </div>
         </div>

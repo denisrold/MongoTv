@@ -1,10 +1,9 @@
-import logo from "./logo.svg";
-import "./App.css";
 import Pelicula from "./Pelicula";
 import PageWrapper from "./PageWrapper";
-import peliculasJson from "./peliculas.json";
+import peliculasJson from "../peliculas.json";
 import Paginacion from "./Paginacion";
 import { useState } from "react";
+
 function ListadoPeliculas() {
   const [paginaActual, setPaginaActual] = useState(1);
 

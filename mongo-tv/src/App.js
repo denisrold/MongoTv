@@ -1,6 +1,6 @@
 import "./App.css";
-import Blog from "./Blog";
-import ListadoPeliculas from "./ListadoPeliculas";
+import Blog from "./views/Blog";
+import ListadoPeliculas from "./views/ListadoPeliculas";
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 function App() {
   return (

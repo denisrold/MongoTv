@@ -1,4 +1,3 @@
-import "./App.css";
 import PageWrapper from "./PageWrapper";
 
 function Blog() {
